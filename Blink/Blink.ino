@@ -1,3 +1,5 @@
+
+
 /*
   ESP8266 Blink by Simon Peter
   Blink the blue LED on the ESP-01 module
@@ -11,6 +13,7 @@
 
 void setup() {
   pinMode(LED_BUILTIN, OUTPUT);  // Initialize the LED_BUILTIN pin as an output
+
 }
 
 // the loop function runs over and over again forever
