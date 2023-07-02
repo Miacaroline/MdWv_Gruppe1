@@ -1,16 +1,19 @@
-
+![image](https://github.com/Miacaroline/MdWv_Gruppe1/assets/66673347/6865b036-e233-430d-a028-ba9b7a95410a)
 
 ##Table of Contents
 
 1. General Info
-2. Technologies 
+2. Technologies
+ 2.1 Warum wurden diese Technologien verwendet?
 3. Installation
-4. Superuser für die Admin-Seite
+4. Arbeitsschritte
+5. Problembehandlung
+6. Quellen
 
 
 ## 1. General Info
 
-Dieser Code wurde als Prüfungsleistung für das Modul Methoden der Wissensverarbeitung von der Hochschule für Technik und Wirtschaft Berlin entwickelt. 
+Der vorliegende Code wurde im Rahmen der Projektarbeit für das Fach Methoden der Wissensverarbeitung im Masterstudiengang Wirtschaftsinformatik an HTW Berlin entwickelt. Das Ziel des Code ist es, mittels einer Open-Source Hardware und der IoT zu implementieren, welcher beides miteinander vereint. Dabei handelt es sich in diesem Projekt um ein Bewegungsmelder über eine Shelly Steckdose und einem Sensor, diese zielführend miteinander reagieren.
 
 ## 2. Technologies
  - Octopus
@@ -18,7 +21,7 @@ Dieser Code wurde als Prüfungsleistung für das Modul Methoden der Wissensverar
  - Shelly Plug S
  - C++
 
-# Warum wurden diese Technologien verwendet?
+# 2.1 Warum wurden diese Technologien verwendet?
 OCTOPUS
 Octopus ist eine Deployment-Software welche 2012 gegründet wurde. Den Schwerpunkt legt die Firma auf erstklassigem Engineering und Kundenservice.
 TeamCity, Azure DevOps und Atlassian Bamboo wären alternativen egwesen, welche (lt. Octopus selber) weitesgehend nicht so Leistungsstark sind.
@@ -44,3 +47,14 @@ $ git status
 $ git add --all
 $ git commit -m "Message"
 $ git push
+
+## 4. Arbeitsschritte
+
+## 5. Problembehandlung
+
+## 6. Quellen
+Erklärung PIR Sensor:
+https://wiki.dfrobot.com/PIR_Motion_Sensor_V1.0_SKU_SEN0171 
+Wlan Verbindung: 
+https://forum.arduino.cc/t/esp8266-httpclient-library-for-https/495245
+http://stefanfrings.de/esp8266/
