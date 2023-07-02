@@ -1,36 +1,15 @@
-/*
-  Analog input, analog output, serial output
 
-  Reads an analog input pin, maps the result to a range from 0 to 255 and uses
-  the result to set the pulse width modulation (PWM) of an output pin.
-  Also prints the results to the Serial Monitor.
-
-  The circuit:
-  - potentiometer connected to analog pin 0.
-    Center pin of the potentiometer goes to the analog pin.
-    side pins of the potentiometer go to +5V and ground
-  - LED connected from digital pin 9 to ground through 220 ohm resistor
-
-  created 29 Dec. 2008
-  modified 9 Apr 2012
-  by Tom Igoe
-
-  This example code is in the public domain.
-
-  https://www.arduino.cc/en/Tutorial/BuiltInExamples/AnalogInOutSerial
-*/
 #include <ESP8266WiFi.h>
 #include <ESP8266WiFiMulti.h>
-//#include <ESP8266HTTPClient.h>
 #include <WiFiClient.h>
 
 // These constants won't change. They're used to give names to the pins used:
 const int analogInPin = A0;  // Analog input pin that the potentiometer is attached to
-//const int analogOutPin = 9; // Analog output pin that the LED is attached to
 
-//const char* ssid ="Mia iPhone"; //SSID vom Wifi Netzwerk
-const char* ssid ="ShellyPlusPlugS-80646FD1F544";
-//const char* password = "12345678!0"; //password
+
+
+const char* ssid ="ShellyPlusPlugS-80646FD1F544"; //SSID vom Shelly Netzwerk
+
 
 const char* host = "";
 const int httpsPort = 443;
@@ -47,29 +26,22 @@ void setup() {
 
 void loop() {
   WiFiClient client; 
-//  HTTPClient http;
   // read the analog in value:
   sensorValue = analogRead(analogInPin);
-  // map it to the range of the analog out:
- // outputValue = map(sensorValue, 0, 1023, 0, 255);
-  // change the analog out value:
-  //analogWrite(analogOutPin, outputValue);
   // print the results to the Serial Monitor:
-   if(sensorValue > 200){
+   if(sensorValue > 200){ //wir setzten den Wert des Sensors auf 200
     
     if(client.connect(shelly, 80)){
-    client.println("GET /relay/0?turn=on HTTP/1.1");
+    client.println("GET /relay/0?turn=on HTTP/1.1"); //Shelly anschalten
     client.println();
-    //client.disconnect();
     };
     Serial.println("Somebody is in this area!");
     
    } else { 
     if(client.connect(shelly, 80)){
-    //Serial.println("connected to Shelly");
-    client.println("GET /relay/0?turn=off HTTP/1.1");
+    //Serial.println("connected to Shelly"); > prüfen ob das der Sensor mitder Shelly verbunden ist
+    client.println("GET /relay/0?turn=off HTTP/1.1"); //Shelly ausschalten
     client.println();
-    //client.disconnect();
     };
     Serial.println("No one!");
   
@@ -78,6 +50,7 @@ void loop() {
   
  Serial.print("sensor = ");
  Serial.println(sensorValue);
+ //folgender Abschnitt ist zum testen der Netzwerkverbindung
  // Serial.print("Verbunden mit ");
  // Serial.println(ssid);
   //Serial.println("\t output = ");
