@@ -1,6 +1,4 @@
-![image](https://github.com/Miacaroline/MdWv_Gruppe1/assets/66673347/6865b036-e233-430d-a028-ba9b7a95410a)
-
-##Table of Contents
+## Table of Contents
 
 1. General Info
 2. Technologies
@@ -49,7 +47,7 @@ $ git commit -m "Message"
 $ git push
 
 ## 4. Arbeitsschritte
-
+![image](https://github.com/Miacaroline/MdWv_Gruppe1/assets/66673347/6865b036-e233-430d-a028-ba9b7a95410a)
 ## 5. Problembehandlung
 
 ## 6. Quellen
