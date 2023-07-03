@@ -114,7 +114,7 @@ Sollte die Ausgabe im seriellen Monitor (Console) in Arduino falsch oder mit zus
 3. Sensoranpassung für erhöhte Distanz: <br>
 Wenn der Sensor nicht den erwarteten Abstand erfasst hat, kann es erforderlich sein, ihn anzupassen.
 Überprüfe die Dokumentation des Sensors, um herauszufinden, wie die Empfindlichkeit oder Reichweite des Sensors erhöht werden kann.
-Passe den Sensor entsprechend an und aktualisiere den Code, um den neuen Abstandswert zu berücksichtigen.
+Passe den Sensor entsprechend an und aktualisiere den Code, um den neuen Abstandswert zu berücksichtigen. <br>
 ![pir2](https://github.com/Miacaroline/MdWv_Gruppe1/assets/66673347/a6a550aa-6400-4e3c-89c7-6b09606731ca)
 
 
