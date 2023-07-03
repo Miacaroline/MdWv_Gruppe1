@@ -21,9 +21,9 @@ Der vorliegende Code wurde als Teil der Projektarbeit für das Fach "Methoden de
  - Shelly Plug S
  - C++
 
-# 2.1 Warum wurden diese Technologien verwendet?
+### 2.1 Warum wurden diese Technologien verwendet?
 <p>
-**OCTOPUS:** <br>
+<b>OCTOPUS:</b> <br>
 Octopus ist eine Deployment-Software welche 2012 gegründet wurde. Den Schwerpunkt legt die Firma auf erstklassigem Engineering und Kundenservice.
 TeamCity, Azure DevOps und Atlassian Bamboo wären alternativen egwesen, welche (lt. Octopus selber) weitesgehend nicht so Leistungsstark sind.
 Darüber hinaus setzt Octopus nicht auf CI/CD "End-to-End" (Hinzufügen von Quellcodeverwaltung, Fehlerverfolgung, Build usw.), sondern mit Bereitstellungen und Vorgängen/Runbook-Automatisierungen. Dieser Bereich, wurde von den wenigsten End-to-End-CI/CD-Tools erkundet.
@@ -89,6 +89,10 @@ Während des Verbindungs- und Testvorgangs können Probleme auftreten. Wenn Sie 
 
 6. Verbindung mit der Shelly herstellen <br>
 Um eine Verbindung mit der Shelly herzustellen, stecken Sie das Gerät in eine Steckdose. Stellen Sie sicher, dass die Shelly mit dem WLAN verbunden ist. Kopieren Sie die IP-Adresse des Shelly-Geräts, normalerweise "192.168.33.2". Öffnen Sie einen Webbrowser und ersetzen Sie die letzte Zahl der IP-Adresse durch eine 1, z. B. "192.168.33.1". Suchen Sie nach dieser Adresse, um die Shelly-Einstellungen zu öffnen. Dort können Sie die Verbindung mit Wlan herstellen. <br>
+
+![image](https://github.com/Miacaroline/MdWv_Gruppe1/assets/66125838/f131cfeb-719d-4c8b-92a9-c842b2f67624)
+![image](https://github.com/Miacaroline/MdWv_Gruppe1/assets/66125838/1cb68264-1a0e-4494-b3e8-4353dabababc)
+
 
 7. Verbindung zwischen der Shelly und dem Sensor <br>
 Die Verbindung zwischen der Shelly und dem Sensor erfolgt über WLAN. Verwenden Sie die ESP8266 HTTPClient Library for HTTPS, um die Verbindung herzustellen. Diese Library bietet die erforderlichen Funktionen, um Daten zwischen der Shelly und dem Sensor auszutauschen. </p>
