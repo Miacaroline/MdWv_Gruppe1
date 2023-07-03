@@ -71,27 +71,30 @@ Um eine Verbindung mit der Shelly herzustellen, stecken Sie das Gerät in eine S
 Die Verbindung zwischen der Shelly und dem Sensor erfolgt über WLAN. Verwenden Sie die ESP8266 HTTPClient Library for HTTPS, um die Verbindung herzustellen. Diese Library bietet die erforderlichen Funktionen, um Daten zwischen der Shelly und dem Sensor auszutauschen. </p>
 
 ## 5. Problembehandlung
-
-1. Fehlercode nicht lesbar:
+<p>
+1. Fehlercode nicht lesbar: <br>
 Falls der Fehlercode nicht lesbar ist, kann der Einsatz des Analog Discovery 2 zur Fehlerdiagnose hilfreich sein.
 Schließe den Analog Discovery 2 an den entsprechenden Port an und verwende die zugehörige Software, um die Signale zu überwachen.
 Analysiere die Signale und vergleiche sie mit den erwarteten Werten, um mögliche Abweichungen zu identifizieren.
 
-2. Unterschiedlicher serial.begin-Wert:
+[image](https://github.com/Miacaroline/MdWv_Gruppe1/assets/66125838/6f251382-1b9a-412e-ad32-cf6d48973b20)
+
+2. Unterschiedlicher serial.begin-Wert: <br>
 Überprüfe den Wert, der für die Funktion "serial.begin" verwendet wird, um sicherzustellen, dass er korrekt eingestellt ist.
 Vergleiche den verwendeten Wert mit den Spezifikationen des Sensors und stelle sicher, dass sie übereinstimmen.
 Falls der Wert falsch war, aktualisiere den Code, um den richtigen Wert einzustellen.
 
-3. Sensoranpassung für erhöhte Distanz:
+3. Sensoranpassung für erhöhte Distanz: <br>
 Wenn der Sensor nicht den erwarteten Abstand erfasst hat, kann es erforderlich sein, ihn anzupassen.
 Überprüfe die Dokumentation des Sensors, um herauszufinden, wie die Empfindlichkeit oder Reichweite des Sensors erhöht werden kann.
 Passe den Sensor entsprechend an und aktualisiere den Code, um den neuen Abstandswert zu berücksichtigen.
 
-4. Digitale und analoge Ports:
+4. Digitale und analoge Ports: <br>
 Beim Octopus-Gerät ist es wichtig zu beachten, dass sowohl digitale als auch analoge Ports vorhanden sind. Dies ermöglicht eine vielseitige Verbindung mit verschiedenen Sensoren, Aktoren und externen Geräten.
 Digitale Ports ermöglichen die Kommunikation mit anderen digitalen Geräten und arbeiten mit binären Signalen (HIGH oder LOW). Diese Ports sind ideal, um digitale Sensoren anzuschließen oder Steuersignale an Aktoren zu senden.
 Analoge Ports hingegen ermöglichen die Messung oder Erzeugung kontinuierlicher Werte innerhalb eines bestimmten Spannungsbereichs. Dies ist besonders nützlich, um analoge Sensoren wie Temperatursensoren oder Lichtsensoren auszulesen.
 Es ist wichtig, die Unterschiede zwischen digitalen und analogen Ports zu beachten, um sicherzustellen, dass die richtigen Ports für die jeweiligen Anwendungen verwendet werden.
+</p>
 
 ## 6. Quellen
 Erklärung PIR Sensor:
