@@ -71,7 +71,7 @@ Um eine Verbindung mit der Shelly herzustellen, stecken Sie das Gerät in eine S
 Die Verbindung zwischen der Shelly und dem Sensor erfolgt über WLAN. Verwenden Sie die ESP8266 HTTPClient Library for HTTPS, um die Verbindung herzustellen. Diese Library bietet die erforderlichen Funktionen, um Daten zwischen der Shelly und dem Sensor auszutauschen. </p>
 
 ## 5. Problembehandlung
-
+xxxx
 ## 6. Quellen
 Erklärung PIR Sensor:
 https://wiki.dfrobot.com/PIR_Motion_Sensor_V1.0_SKU_SEN0171 
