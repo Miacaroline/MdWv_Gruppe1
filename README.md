@@ -59,8 +59,6 @@ MicroUSB zu USB
 ![image](https://github.com/Miacaroline/MdWv_Gruppe1/assets/66673347/c1648885-6650-46d0-9d66-511143435674)
 
 Verbindungskabel Octopus zur Shelly <br>
-![image](https://github.com/Miacaroline/MdWv_Gruppe1/assets/66673347/89dd57f5-6e38-496a-b843-1752231ce577)
-
 <table><tr>
 <td> <img src="https://github.com/Miacaroline/MdWv_Gruppe1/assets/66673347/89dd57f5-6e38-496a-b843-1752231ce577" alt="Sensor" style="width: 250px;"/> </td>
 </tr></table>
