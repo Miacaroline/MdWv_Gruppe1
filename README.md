@@ -27,19 +27,38 @@ OCTOPUS: <br>
 Octopus ist eine Deployment-Software welche 2012 gegründet wurde. Den Schwerpunkt legt die Firma auf erstklassigem Engineering und Kundenservice.
 TeamCity, Azure DevOps und Atlassian Bamboo wären alternativen egwesen, welche (lt. Octopus selber) weitesgehend nicht so Leistungsstark sind.
 Darüber hinaus setzt Octopus nicht auf CI/CD "End-to-End" (Hinzufügen von Quellcodeverwaltung, Fehlerverfolgung, Build usw.), sondern mit Bereitstellungen und Vorgängen/Runbook-Automatisierungen. Dieser Bereich, wurde von den wenigsten End-to-End-CI/CD-Tools erkundet.
-
+![image](https://github.com/Miacaroline/MdWv_Gruppe1/assets/66673347/a5016266-a913-455d-91e2-e4077b2bfac5) ![image](https://github.com/Miacaroline/MdWv_Gruppe1/assets/66673347/4b2f420f-d3a3-4588-8f2b-b78e3cdb5cb2)
+ 
+Weitere Informationen zum Octopus und dessen Aufbau: https://www.lehrerfortbildung-bw.de/st_digital/medienwerkstatt/dossiers/co2ampel/3_materialien/1_board/   
+ 
 ADJUSTABLE PIR MOTIOB SENSOR v1.0: <br>
 Ein einstellbarer PIR-Bewegungssensor ist ein Gerät, das Bewegungen aufgrund von Veränderungen in der Infrarotstrahlung in seinem Erfassungsbereich erkennt. 
 Der Sensor hat neben dem in Projekt verwendeten Einstellungen, der empfindlichen Beweglichtkeit, auch weitere Möglichkeiten wie z.B. die Einstellung einer Zeitverzögerung.
 
+![image](https://github.com/Miacaroline/MdWv_Gruppe1/assets/66673347/8a366b46-4d42-44f4-93df-97a8582e0cf7) ![image](https://github.com/Miacaroline/MdWv_Gruppe1/assets/66673347/6a2cf2f4-c471-435c-8b50-41a6acdaedbb)
+
+
+Weitere Informationen zur PIR und dessen Aufbau: https://learn.adafruit.com/pir-passive-infrared-proximity-motion-sensor/overview 
+
 SHELLY: <br>
 Bei der verwendeten Shelly Plus Plug S handelt es sich um eine intelligente Steckdose, welche die Fernsteuerung von verschiedensten Elektrogeräten ermöglicht. Dabei kann die Shelly sowohl über ein Wi-Fi Netzwerk als auch über einen Cloud-Hausautomatisierungsdienste betrieben werden.
 Eine mögliche Alternative zur Shelly wäre der TP-Link Kasa Smart Plug, wobei die Shelly ein kompatibleres Design hat.
+![image](https://github.com/Miacaroline/MdWv_Gruppe1/assets/66673347/e2c61f0a-cd0d-4d33-af73-2f9ba3272286)
+
+
+Weitere Informationen zur Shelly: https://de.manuals.plus/shelly/plus-plug-s-wi-fi-smart-plug-manual#ixzz85qrAgqRJ
 
 C++: <br>
 C++ ist eine häufig verwendete Programmiersprache für die Entwicklung von Firmware und ermöglicht es, den Code des Geräts anzupassen. C++ hat eine gute Leistung und Effizienz, da es eine niedrige Abstraktionsebene und direkten Zugriff auf die Hardware ermöglicht. Außerdem ist C++ Plattformunabhängig.
 
-Read more: https://de.manuals.plus/shelly/plus-plug-s-wi-fi-smart-plug-manual#ixzz85qrAgqRJ
+Folgender Verbindungskabel wurden verwendet: 
+MicroUSB zu USB 
+![image](https://github.com/Miacaroline/MdWv_Gruppe1/assets/66673347/c1648885-6650-46d0-9d66-511143435674)
+
+Verbindungskabel Octopus zur Shelly
+![image](https://github.com/Miacaroline/MdWv_Gruppe1/assets/66673347/89dd57f5-6e38-496a-b843-1752231ce577)
+
+
 </p>
 
 ## 3. Arbeitsschritte
@@ -55,7 +74,10 @@ Nachdem Sie die Arduino IDE installiert haben, verbinden Sie den Octopus mit Ihr
 Öffnen Sie die Arduino IDE und klicken Sie auf "Datei" > "Beispiele" > "0.1 Basics". Dort finden Sie einen Beispielcode namens "Blink". Dieser Code kann verwendet werden, um die Verbindung zwischen Ihrem Gerät und dem Octopus zu testen. Laden Sie den Beispielcode hoch und führen Sie ihn aus.<br>
 
 4. Verbindung zum Sensor herstellen <br>
-Nachdem die Verbindung zum Octopus erfolgreich hergestellt wurde, können Sie den PIR Motion Sensor anschließen. Verwenden Sie die entsprechenden Kabel, um den Sensor mit dem Octopus zu verbinden. Um die Funktionalität des Sensors zu überprüfen, können Sie einen Beispielcode von der DFRobot-Website verwenden. Die Ausgaben in der Konsole können Ihnen helfen, die Verbindung und Funktionalität des Sensors zu überprüfen. Beachten Sie, dass es möglicherweise zu Problemen kommen kann, die im nächsten Unterpunkt erklärt werden. Wir haben den Sensor übe den Analogen Port verbunden. Wie auf dem Bild zu erkenn ist, ist dies der Rechte. ![image](https://github.com/Miacaroline/MdWv_Gruppe1/assets/66673347/6865b036-e233-430d-a028-ba9b7a95410a) <br>
+Nachdem die Verbindung zum Octopus erfolgreich hergestellt wurde, können Sie den PIR Motion Sensor anschließen. Verwenden Sie die entsprechenden Kabel, um den Sensor mit dem Octopus zu verbinden. Um die Funktionalität des Sensors zu überprüfen, können Sie einen Beispielcode von der DFRobot-Website verwenden. Die Ausgaben in der Konsole können Ihnen helfen, die Verbindung und Funktionalität des Sensors zu überprüfen. Beachten Sie, dass es möglicherweise zu Problemen kommen kann, die im nächsten Unterpunkt erklärt werden. Wir haben den Sensor übe den Analogen Port verbunden. Wie auf dem Bild zu erkenn ist, ist dies der Rechte. ![image](https://github.com/Miacaroline/MdWv_Gruppe1/assets/66673347/6865b036-e233-430d-a028-ba9b7a95410a)
+![image](https://github.com/Miacaroline/MdWv_Gruppe1/assets/66673347/677aaad5-db29-41d2-8f79-184c8ab8a408)
+
+<br>
 
 5. Problembehandlung <br>
 Während des Verbindungs- und Testvorgangs können Probleme auftreten. Wenn Sie auf Probleme stoßen, lesen Sie die detaillierten Erklärungen in der Problembehandlung, um mögliche Lösungen zu finden. <br>
@@ -67,7 +89,9 @@ Um eine Verbindung mit der Shelly herzustellen, stecken Sie das Gerät in eine S
 Die Verbindung zwischen der Shelly und dem Sensor erfolgt über WLAN. Verwenden Sie die ESP8266 HTTPClient Library for HTTPS, um die Verbindung herzustellen. Diese Library bietet die erforderlichen Funktionen, um Daten zwischen der Shelly und dem Sensor auszutauschen. </p>
 
 8. Ausführung des Codes
-Während dem Kompilen leuchtet eine Lampe auf dem Octopus. 
+Während dem Kompilen leuchtet eine Lampe auf dem Octopus.
+![image](https://github.com/Miacaroline/MdWv_Gruppe1/assets/66673347/09061e59-5863-4de7-b4fb-ea0c5f708003)
+
 
 ## 4. Problembehandlung
 <p>
@@ -80,6 +104,8 @@ Analysiere die Signale und vergleiche sie mit den erwarteten Werten, um möglich
 
 2. Veränderung des Baud-Werts: <br>
 Sollte die Ausgabe im seriellen Monitor (Console) in Arduino falsch oder mit zusammenhangslosen Zeichen ausgegeben werden, kann die Veränderung des Baud Werts in den Arduino Einstellung eine Lösung darstellen. Dieser benannte Baud-Wert bezieht sich auf die Übertragungsrate oder Symbolrate in dem Kommunikationssystem. Es gibt an, wie viele Signalwechsel pro Sekunde übertragen werden.
+![image](https://github.com/Miacaroline/MdWv_Gruppe1/assets/66673347/43acea47-26e8-4269-b0b9-94516b7a3d54)
+
 
 4. Sensoranpassung für erhöhte Distanz: <br>
 Wenn der Sensor nicht den erwarteten Abstand erfasst hat, kann es erforderlich sein, ihn anzupassen.
