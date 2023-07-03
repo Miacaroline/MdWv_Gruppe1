@@ -36,11 +36,9 @@ ADJUSTABLE PIR MOTIOB SENSOR v1.0: <br>
 Ein einstellbarer PIR-Bewegungssensor ist ein Gerät, das Bewegungen aufgrund von Veränderungen in der Infrarotstrahlung in seinem Erfassungsbereich erkennt. 
 Der Sensor hat neben dem in Projekt verwendeten Einstellungen, der empfindlichen Beweglichtkeit, auch weitere Möglichkeiten wie z.B. die Einstellung einer Zeitverzögerung.
 
-![Pir1](https://github.com/Miacaroline/MdWv_Gruppe1/assets/66673347/19629a37-3386-4048-9663-cc745bf003d1) ![pir2](https://github.com/Miacaroline/MdWv_Gruppe1/assets/66673347/04a19a77-b0d9-4a4e-8efe-d249cfc8f04b)
-
 <table><tr>
-<td> <img src="https://github.com/Miacaroline/MdWv_Gruppe1/assets/66673347/19629a37-3386-4048-9663-cc745bf003d1" alt="Drawing" style="width: 250px;"/> </td>
-<td> <img src="https://github.com/Miacaroline/MdWv_Gruppe1/assets/66673347/04a19a77-b0d9-4a4e-8efe-d249cfc8f04b" alt="Drawing" style="width: 250px;"/> </td>
+<td> <img src="https://github.com/Miacaroline/MdWv_Gruppe1/assets/66673347/19629a37-3386-4048-9663-cc745bf003d1" alt="Sensor" style="width: 250px;"/> </td>
+<td> <img src="https://github.com/Miacaroline/MdWv_Gruppe1/assets/66673347/04a19a77-b0d9-4a4e-8efe-d249cfc8f04b" alt="Sensor" style="width: 250px;"/> </td>
 </tr></table>
 
 Weitere Informationen zur PIR und dessen Aufbau: https://learn.adafruit.com/pir-passive-infrared-proximity-motion-sensor/overview  
@@ -81,6 +79,12 @@ Nachdem Sie die Arduino IDE installiert haben, verbinden Sie den Octopus mit Ihr
 4. Verbindung zum Sensor herstellen <br>
 Nachdem die Verbindung zum Octopus erfolgreich hergestellt wurde, können Sie den PIR Motion Sensor anschließen. Verwenden Sie die entsprechenden Kabel, um den Sensor mit dem Octopus zu verbinden. Um die Funktionalität des Sensors zu überprüfen, können Sie einen Beispielcode von der DFRobot-Website verwenden. Die Ausgaben in der Konsole können Ihnen helfen, die Verbindung und Funktionalität des Sensors zu überprüfen. Beachten Sie, dass es möglicherweise zu Problemen kommen kann, die im nächsten Unterpunkt erklärt werden. Wir haben den Sensor übe den Analogen Port verbunden. Wie auf dem Bild zu erkenn ist, ist dies der Rechte. ![image](https://github.com/Miacaroline/MdWv_Gruppe1/assets/66673347/6865b036-e233-430d-a028-ba9b7a95410a)
 ![image](https://github.com/Miacaroline/MdWv_Gruppe1/assets/66673347/677aaad5-db29-41d2-8f79-184c8ab8a408)
+
+<table><tr>
+<td> <img src="https://github.com/Miacaroline/MdWv_Gruppe1/assets/66673347/6865b036-e233-430d-a028-ba9b7a95410a" alt="Sensor" style="width: 250px;"/> </td>
+<td> <img src="https://github.com/Miacaroline/MdWv_Gruppe1/assets/66673347/677aaad5-db29-41d2-8f79-184c8ab8a408" alt="Sensor" style="width: 250px;"/> </td>
+</tr></table>
+
 
 <br>
 
