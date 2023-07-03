@@ -39,8 +39,8 @@ Der Sensor hat neben dem in Projekt verwendeten Einstellungen, der empfindlichen
 ![Pir1](https://github.com/Miacaroline/MdWv_Gruppe1/assets/66673347/19629a37-3386-4048-9663-cc745bf003d1) ![pir2](https://github.com/Miacaroline/MdWv_Gruppe1/assets/66673347/04a19a77-b0d9-4a4e-8efe-d249cfc8f04b)
 
 <table><tr>
-<td> <img src="![Pir1](https://github.com/Miacaroline/MdWv_Gruppe1/assets/66673347/19629a37-3386-4048-9663-cc745bf003d1)" alt="Drawing" style="width: 250px;"/> </td>
-<td> <img src="![pir2](https://github.com/Miacaroline/MdWv_Gruppe1/assets/66673347/04a19a77-b0d9-4a4e-8efe-d249cfc8f04b)" alt="Drawing" style="width: 250px;"/> </td>
+<td> <img src="https://github.com/Miacaroline/MdWv_Gruppe1/assets/66673347/19629a37-3386-4048-9663-cc745bf003d1" alt="Drawing" style="width: 250px;"/> </td>
+<td> <img src="https://github.com/Miacaroline/MdWv_Gruppe1/assets/66673347/04a19a77-b0d9-4a4e-8efe-d249cfc8f04b" alt="Drawing" style="width: 250px;"/> </td>
 </tr></table>
 
 Weitere Informationen zur PIR und dessen Aufbau: https://learn.adafruit.com/pir-passive-infrared-proximity-motion-sensor/overview  
