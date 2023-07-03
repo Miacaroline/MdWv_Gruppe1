@@ -77,7 +77,7 @@ Falls der Fehlercode nicht lesbar ist, kann der Einsatz des Analog Discovery 2 z
 Schließe den Analog Discovery 2 an den entsprechenden Port an und verwende die zugehörige Software, um die Signale zu überwachen.
 Analysiere die Signale und vergleiche sie mit den erwarteten Werten, um mögliche Abweichungen zu identifizieren.
 
-[image](https://github.com/Miacaroline/MdWv_Gruppe1/assets/66125838/6f251382-1b9a-412e-ad32-cf6d48973b20)
+![image](https://github.com/Miacaroline/MdWv_Gruppe1/assets/66125838/6f251382-1b9a-412e-ad32-cf6d48973b20)
 
 2. Unterschiedlicher serial.begin-Wert: <br>
 Überprüfe den Wert, der für die Funktion "serial.begin" verwendet wird, um sicherzustellen, dass er korrekt eingestellt ist.
