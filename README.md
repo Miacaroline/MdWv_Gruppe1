@@ -28,8 +28,7 @@ Octopus ist eine Deployment-Software welche 2012 gegründet wurde. Den Schwerpun
 TeamCity, Azure DevOps und Atlassian Bamboo wären alternativen egwesen, welche (lt. Octopus selber) weitesgehend nicht so Leistungsstark sind.
 Darüber hinaus setzt Octopus nicht auf CI/CD "End-to-End" (Hinzufügen von Quellcodeverwaltung, Fehlerverfolgung, Build usw.), sondern mit Bereitstellungen und Vorgängen/Runbook-Automatisierungen. Dieser Bereich, wurde von den wenigsten End-to-End-CI/CD-Tools erkundet.
 
-![octopus1](https://github.com/Miacaroline/MdWv_Gruppe1/assets/66673347/fdc4dbeb-bf53-4a8f-b2df-2b9420e384d6) | ![octopus2](https://github.com/Miacaroline/MdWv_Gruppe1/assets/66673347/4c282ccb-35b1-4e0d-a7cb-7c4dc41b918f)
-
+![octopus1](https://github.com/Miacaroline/MdWv_Gruppe1/assets/66673347/fdc4dbeb-bf53-4a8f-b2df-2b9420e384d6)  ![octopus2](https://github.com/Miacaroline/MdWv_Gruppe1/assets/66673347/4c282ccb-35b1-4e0d-a7cb-7c4dc41b918f)
  
 Weitere Informationen zum Octopus und dessen Aufbau: https://www.lehrerfortbildung-bw.de/st_digital/medienwerkstatt/dossiers/co2ampel/3_materialien/1_board/   
  
@@ -37,17 +36,15 @@ ADJUSTABLE PIR MOTIOB SENSOR v1.0: <br>
 Ein einstellbarer PIR-Bewegungssensor ist ein Gerät, das Bewegungen aufgrund von Veränderungen in der Infrarotstrahlung in seinem Erfassungsbereich erkennt. 
 Der Sensor hat neben dem in Projekt verwendeten Einstellungen, der empfindlichen Beweglichtkeit, auch weitere Möglichkeiten wie z.B. die Einstellung einer Zeitverzögerung.
 
+![Pir1](https://github.com/Miacaroline/MdWv_Gruppe1/assets/66673347/19629a37-3386-4048-9663-cc745bf003d1) ![pir2](https://github.com/Miacaroline/MdWv_Gruppe1/assets/66673347/04a19a77-b0d9-4a4e-8efe-d249cfc8f04b)
 
-
-
-Weitere Informationen zur PIR und dessen Aufbau: https://learn.adafruit.com/pir-passive-infrared-proximity-motion-sensor/overview 
+Weitere Informationen zur PIR und dessen Aufbau: https://learn.adafruit.com/pir-passive-infrared-proximity-motion-sensor/overview  
 
 SHELLY: <br>
 Bei der verwendeten Shelly Plus Plug S handelt es sich um eine intelligente Steckdose, welche die Fernsteuerung von verschiedensten Elektrogeräten ermöglicht. Dabei kann die Shelly sowohl über ein Wi-Fi Netzwerk als auch über einen Cloud-Hausautomatisierungsdienste betrieben werden.
 Eine mögliche Alternative zur Shelly wäre der TP-Link Kasa Smart Plug, wobei die Shelly ein kompatibleres Design hat.
 
-
-
+![shelly](https://github.com/Miacaroline/MdWv_Gruppe1/assets/66673347/19200f25-bf8d-4eca-9caa-27e4566038d6)
 
 Weitere Informationen zur Shelly: https://de.manuals.plus/shelly/plus-plug-s-wi-fi-smart-plug-manual#ixzz85qrAgqRJ
 
@@ -92,7 +89,7 @@ Um eine Verbindung mit der Shelly herzustellen, stecken Sie das Gerät in eine S
 Die Verbindung zwischen der Shelly und dem Sensor erfolgt über WLAN. Verwenden Sie die ESP8266 HTTPClient Library for HTTPS, um die Verbindung herzustellen. Diese Library bietet die erforderlichen Funktionen, um Daten zwischen der Shelly und dem Sensor auszutauschen. </p>
 
 8. Ausführung des Codes
-Während dem Kompilen leuchtet eine Lampe auf dem Octopus.
+![alles](https://github.com/Miacaroline/MdWv_Gruppe1/assets/66673347/c1529a3b-1439-4ca8-b74a-2e8d3b785eb6)
 
 
 
@@ -110,10 +107,12 @@ Sollte die Ausgabe im seriellen Monitor (Console) in Arduino falsch oder mit zus
 ![image](https://github.com/Miacaroline/MdWv_Gruppe1/assets/66673347/43acea47-26e8-4269-b0b9-94516b7a3d54)
 
 
-4. Sensoranpassung für erhöhte Distanz: <br>
+3. Sensoranpassung für erhöhte Distanz: <br>
 Wenn der Sensor nicht den erwarteten Abstand erfasst hat, kann es erforderlich sein, ihn anzupassen.
 Überprüfe die Dokumentation des Sensors, um herauszufinden, wie die Empfindlichkeit oder Reichweite des Sensors erhöht werden kann.
 Passe den Sensor entsprechend an und aktualisiere den Code, um den neuen Abstandswert zu berücksichtigen.
+![pir2](https://github.com/Miacaroline/MdWv_Gruppe1/assets/66673347/a6a550aa-6400-4e3c-89c7-6b09606731ca)
+
 
 5. Digitale und analoge Ports: <br>
 Beim Octopus-Gerät ist es wichtig zu beachten, dass sowohl digitale als auch analoge Ports vorhanden sind. Dies ermöglicht eine vielseitige Verbindung mit verschiedenen Sensoren, Aktoren und externen Geräten.
