@@ -1,7 +1,7 @@
 ## Table of Contents
 
 1. General Info
-2. Technologies
+2. Technologies <br>
  2.1 Warum wurden diese Technologien verwendet?
 3. Arbeitsschritte
 4. Problembehandlung
@@ -37,6 +37,11 @@ Ein einstellbarer PIR-Bewegungssensor ist ein Gerät, das Bewegungen aufgrund vo
 Der Sensor hat neben dem in Projekt verwendeten Einstellungen, der empfindlichen Beweglichtkeit, auch weitere Möglichkeiten wie z.B. die Einstellung einer Zeitverzögerung.
 
 ![Pir1](https://github.com/Miacaroline/MdWv_Gruppe1/assets/66673347/19629a37-3386-4048-9663-cc745bf003d1) ![pir2](https://github.com/Miacaroline/MdWv_Gruppe1/assets/66673347/04a19a77-b0d9-4a4e-8efe-d249cfc8f04b)
+
+<table><tr>
+<td> <img src="![Pir1](https://github.com/Miacaroline/MdWv_Gruppe1/assets/66673347/19629a37-3386-4048-9663-cc745bf003d1)" alt="Drawing" style="width: 250px;"/> </td>
+<td> <img src="![pir2](https://github.com/Miacaroline/MdWv_Gruppe1/assets/66673347/04a19a77-b0d9-4a4e-8efe-d249cfc8f04b)" alt="Drawing" style="width: 250px;"/> </td>
+</tr></table>
 
 Weitere Informationen zur PIR und dessen Aufbau: https://learn.adafruit.com/pir-passive-infrared-proximity-motion-sensor/overview  
 
@@ -89,7 +94,6 @@ Um eine Verbindung mit der Shelly herzustellen, stecken Sie das Gerät in eine S
 Die Verbindung zwischen der Shelly und dem Sensor erfolgt über WLAN. Verwenden Sie die ESP8266 HTTPClient Library for HTTPS, um die Verbindung herzustellen. Diese Library bietet die erforderlichen Funktionen, um Daten zwischen der Shelly und dem Sensor auszutauschen. </p>
 
 8. Ausführung des Codes
-![alles](https://github.com/Miacaroline/MdWv_Gruppe1/assets/66673347/c1529a3b-1439-4ca8-b74a-2e8d3b785eb6)
 
 
 
