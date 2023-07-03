@@ -27,7 +27,8 @@ OCTOPUS: <br>
 Octopus ist eine Deployment-Software welche 2012 gegründet wurde. Den Schwerpunkt legt die Firma auf erstklassigem Engineering und Kundenservice.
 TeamCity, Azure DevOps und Atlassian Bamboo wären alternativen egwesen, welche (lt. Octopus selber) weitesgehend nicht so Leistungsstark sind.
 Darüber hinaus setzt Octopus nicht auf CI/CD "End-to-End" (Hinzufügen von Quellcodeverwaltung, Fehlerverfolgung, Build usw.), sondern mit Bereitstellungen und Vorgängen/Runbook-Automatisierungen. Dieser Bereich, wurde von den wenigsten End-to-End-CI/CD-Tools erkundet.
-![image](https://github.com/Miacaroline/MdWv_Gruppe1/assets/66673347/a5016266-a913-455d-91e2-e4077b2bfac5) ![image](https://github.com/Miacaroline/MdWv_Gruppe1/assets/66673347/4b2f420f-d3a3-4588-8f2b-b78e3cdb5cb2)
+![Uploading octopus1.jpeg…]()
+
  
 Weitere Informationen zum Octopus und dessen Aufbau: https://www.lehrerfortbildung-bw.de/st_digital/medienwerkstatt/dossiers/co2ampel/3_materialien/1_board/   
  
@@ -35,7 +36,7 @@ ADJUSTABLE PIR MOTIOB SENSOR v1.0: <br>
 Ein einstellbarer PIR-Bewegungssensor ist ein Gerät, das Bewegungen aufgrund von Veränderungen in der Infrarotstrahlung in seinem Erfassungsbereich erkennt. 
 Der Sensor hat neben dem in Projekt verwendeten Einstellungen, der empfindlichen Beweglichtkeit, auch weitere Möglichkeiten wie z.B. die Einstellung einer Zeitverzögerung.
 
-![image](https://github.com/Miacaroline/MdWv_Gruppe1/assets/66673347/8a366b46-4d42-44f4-93df-97a8582e0cf7) ![image](https://github.com/Miacaroline/MdWv_Gruppe1/assets/66673347/6a2cf2f4-c471-435c-8b50-41a6acdaedbb)
+
 
 
 Weitere Informationen zur PIR und dessen Aufbau: https://learn.adafruit.com/pir-passive-infrared-proximity-motion-sensor/overview 
@@ -43,7 +44,8 @@ Weitere Informationen zur PIR und dessen Aufbau: https://learn.adafruit.com/pir-
 SHELLY: <br>
 Bei der verwendeten Shelly Plus Plug S handelt es sich um eine intelligente Steckdose, welche die Fernsteuerung von verschiedensten Elektrogeräten ermöglicht. Dabei kann die Shelly sowohl über ein Wi-Fi Netzwerk als auch über einen Cloud-Hausautomatisierungsdienste betrieben werden.
 Eine mögliche Alternative zur Shelly wäre der TP-Link Kasa Smart Plug, wobei die Shelly ein kompatibleres Design hat.
-![image](https://github.com/Miacaroline/MdWv_Gruppe1/assets/66673347/e2c61f0a-cd0d-4d33-af73-2f9ba3272286)
+
+
 
 
 Weitere Informationen zur Shelly: https://de.manuals.plus/shelly/plus-plug-s-wi-fi-smart-plug-manual#ixzz85qrAgqRJ
@@ -55,7 +57,7 @@ Folgender Verbindungskabel wurden verwendet:
 MicroUSB zu USB 
 ![image](https://github.com/Miacaroline/MdWv_Gruppe1/assets/66673347/c1648885-6650-46d0-9d66-511143435674)
 
-Verbindungskabel Octopus zur Shelly
+Verbindungskabel Octopus zur Shelly <br>
 ![image](https://github.com/Miacaroline/MdWv_Gruppe1/assets/66673347/89dd57f5-6e38-496a-b843-1752231ce577)
 
 
@@ -90,7 +92,7 @@ Die Verbindung zwischen der Shelly und dem Sensor erfolgt über WLAN. Verwenden 
 
 8. Ausführung des Codes
 Während dem Kompilen leuchtet eine Lampe auf dem Octopus.
-![image](https://github.com/Miacaroline/MdWv_Gruppe1/assets/66673347/09061e59-5863-4de7-b4fb-ea0c5f708003)
+
 
 
 ## 4. Problembehandlung
