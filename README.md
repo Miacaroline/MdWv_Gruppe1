@@ -78,17 +78,15 @@ Analysiere die Signale und vergleiche sie mit den erwarteten Werten, um möglich
 
 ![image](https://github.com/Miacaroline/MdWv_Gruppe1/assets/66125838/e85dde18-904c-4557-8c91-eb041b135c7c)
 
-2. Unterschiedlicher serial.begin-Wert: <br>
-Überprüfe den Wert, der für die Funktion "serial.begin" verwendet wird, um sicherzustellen, dass er korrekt eingestellt ist.
-Vergleiche den verwendeten Wert mit den Spezifikationen des Sensors und stelle sicher, dass sie übereinstimmen.
-Falls der Wert falsch war, aktualisiere den Code, um den richtigen Wert einzustellen.
+2. Veränderung des Baud-Werts: <br>
+Sollte die Ausgabe im seriellen Monitor (Console) in Arduino falsch oder mit zusammenhangslosen Zeichen ausgegeben werden, kann die Veränderung des Baud Werts in den Arduino Einstellung eine Lösung darstellen. Dieser benannte Baud-Wert bezieht sich auf die Übertragungsrate oder Symbolrate in dem Kommunikationssystem. Es gibt an, wie viele Signalwechsel pro Sekunde übertragen werden.
 
-3. Sensoranpassung für erhöhte Distanz: <br>
+4. Sensoranpassung für erhöhte Distanz: <br>
 Wenn der Sensor nicht den erwarteten Abstand erfasst hat, kann es erforderlich sein, ihn anzupassen.
 Überprüfe die Dokumentation des Sensors, um herauszufinden, wie die Empfindlichkeit oder Reichweite des Sensors erhöht werden kann.
 Passe den Sensor entsprechend an und aktualisiere den Code, um den neuen Abstandswert zu berücksichtigen.
 
-4. Digitale und analoge Ports: <br>
+5. Digitale und analoge Ports: <br>
 Beim Octopus-Gerät ist es wichtig zu beachten, dass sowohl digitale als auch analoge Ports vorhanden sind. Dies ermöglicht eine vielseitige Verbindung mit verschiedenen Sensoren, Aktoren und externen Geräten.
 Digitale Ports ermöglichen die Kommunikation mit anderen digitalen Geräten und arbeiten mit binären Signalen (HIGH oder LOW). Diese Ports sind ideal, um digitale Sensoren anzuschließen oder Steuersignale an Aktoren zu senden.
 Analoge Ports hingegen ermöglichen die Messung oder Erzeugung kontinuierlicher Werte innerhalb eines bestimmten Spannungsbereichs. Dies ist besonders nützlich, um analoge Sensoren wie Temperatursensoren oder Lichtsensoren auszulesen.
