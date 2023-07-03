@@ -3,9 +3,9 @@
 1. General Info
 2. Technologies
  2.1 Warum wurden diese Technologien verwendet?
-3. Installation
-4.  Arbeitsschritte
-5. Problembehandlung
+3. Arbeitsschritte
+4. Problembehandlung
+5. Installation
 6. Quellen
 
 
