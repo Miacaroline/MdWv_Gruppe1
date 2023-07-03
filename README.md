@@ -11,7 +11,7 @@
 
 ## 1. General Info
 
-Der vorliegende Code wurde im Rahmen der Projektarbeit für das Fach Methoden der Wissensverarbeitung im Masterstudiengang Wirtschaftsinformatik an HTW Berlin entwickelt. Das Ziel des Code ist es, mittels einer Open-Source Hardware und der IoT zu implementieren, welcher beides miteinander vereint. Dabei handelt es sich in diesem Projekt um ein Bewegungsmelder über eine Shelly Steckdose und einem Sensor, diese zielführend miteinander reagieren.
+Der vorliegende Code wurde als Teil der Projektarbeit für das Fach "Methoden der Wissensverarbeitung" im Masterstudiengang Wirtschaftsinformatik an der HTW Berlin entwickelt. Das Hauptziel dieses Codes ist es, eine Verbindung zwischen Open-Source-Hardware und dem Internet der Dinge (IoT) herzustellen. Konkret handelt es sich in diesem Projekt um die Implementierung eines Bewegungsmelders, der mit einer Shelly-Steckdose und einem Sensor interagiert, um ein bestimmtes Verhalten zu erreichen.
 
 ## 2. Technologies
  - Octopus
