@@ -11,7 +11,9 @@
 
 ## 1. General Info
 
+<p>
 Der vorliegende Code wurde als Teil der Projektarbeit für das Fach "Methoden der Wissensverarbeitung" im Masterstudiengang Wirtschaftsinformatik an der HTW Berlin entwickelt. Das Hauptziel dieses Codes ist es, eine Verbindung zwischen Open-Source-Hardware und dem Internet der Dinge (IoT) herzustellen. Konkret handelt es sich in diesem Projekt um die Implementierung eines Bewegungsmelders, der mit einer Shelly-Steckdose und einem Sensor interagiert, um ein bestimmtes Verhalten zu erreichen.
+</p>
 
 ## 2. Technologies
  - Octopus
@@ -20,33 +22,27 @@ Der vorliegende Code wurde als Teil der Projektarbeit für das Fach "Methoden de
  - C++
 
 # 2.1 Warum wurden diese Technologien verwendet?
-OCTOPUS
+<p>
+OCTOPUS:
 Octopus ist eine Deployment-Software welche 2012 gegründet wurde. Den Schwerpunkt legt die Firma auf erstklassigem Engineering und Kundenservice.
 TeamCity, Azure DevOps und Atlassian Bamboo wären alternativen egwesen, welche (lt. Octopus selber) weitesgehend nicht so Leistungsstark sind.
 Darüber hinaus setzt Octopus nicht auf CI/CD "End-to-End" (Hinzufügen von Quellcodeverwaltung, Fehlerverfolgung, Build usw.), sondern mit Bereitstellungen und Vorgängen/Runbook-Automatisierungen. Dieser Bereich, wurde von den wenigsten End-to-End-CI/CD-Tools erkundet.
 
-ADJUSTABLE PIR MOTIOB SENSOR v1.0
+ADJUSTABLE PIR MOTIOB SENSOR v1.0:
 Ein einstellbarer PIR-Bewegungssensor ist ein Gerät, das Bewegungen aufgrund von Veränderungen in der Infrarotstrahlung in seinem Erfassungsbereich erkennt. 
 Der Sensor hat neben dem in Projekt verwendeten Einstellungen, der empfindlichen Beweglichtkeit, auch weitere Möglichkeiten wie z.B. die Einstellung einer Zeitverzögerung.
 
-SHELLY 
+SHELLY:
 Bei der verwendeten Shelly Plus Plug S handelt es sich um eine intelligente Steckdose, welche die Fernsteuerung von verschiedensten Elektrogeräten ermöglicht. Dabei kann die Shelly sowohl über ein Wi-Fi Netzwerk als auch über einen Cloud-Hausautomatisierungsdienste betrieben werden.
 Eine mögliche Alternative zur Shelly wäre der TP-Link Kasa Smart Plug, wobei die Shelly ein kompatibleres Design hat.
 
-C++
+C++:
 C++ ist eine häufig verwendete Programmiersprache für die Entwicklung von Firmware und ermöglicht es, den Code des Geräts anzupassen. C++ hat eine gute Leistung und Effizienz, da es eine niedrige Abstraktionsebene und direkten Zugriff auf die Hardware ermöglicht. Außerdem ist C++ Plattformunabhängig.
 
 Read more: https://de.manuals.plus/shelly/plus-plug-s-wi-fi-smart-plug-manual#ixzz85qrAgqRJ
- 
-## 3. Installation
-$ git remote add origin "gh repo clone Miacaroline/MdWv_Gruppe1 "
-$ git push -u origin master
-$ git status
-$ git add --all
-$ git commit -m "Message"
-$ git push
+</p>
 
-## 4. Arbeitsschritte
+## 3. Arbeitsschritte
 
 <p> 
 1. Verbindung zum Octopus <br>
@@ -70,7 +66,7 @@ Um eine Verbindung mit der Shelly herzustellen, stecken Sie das Gerät in eine S
 7. Verbindung zwischen der Shelly und dem Sensor <br>
 Die Verbindung zwischen der Shelly und dem Sensor erfolgt über WLAN. Verwenden Sie die ESP8266 HTTPClient Library for HTTPS, um die Verbindung herzustellen. Diese Library bietet die erforderlichen Funktionen, um Daten zwischen der Shelly und dem Sensor auszutauschen. </p>
 
-## 5. Problembehandlung
+## 4. Problembehandlung
 <p>
 1. Fehlercode nicht lesbar: <br>
 Falls der Fehlercode nicht lesbar ist, kann der Einsatz des Analog Discovery 2 zur Fehlerdiagnose hilfreich sein.
@@ -94,6 +90,16 @@ Beim Octopus-Gerät ist es wichtig zu beachten, dass sowohl digitale als auch an
 Digitale Ports ermöglichen die Kommunikation mit anderen digitalen Geräten und arbeiten mit binären Signalen (HIGH oder LOW). Diese Ports sind ideal, um digitale Sensoren anzuschließen oder Steuersignale an Aktoren zu senden.
 Analoge Ports hingegen ermöglichen die Messung oder Erzeugung kontinuierlicher Werte innerhalb eines bestimmten Spannungsbereichs. Dies ist besonders nützlich, um analoge Sensoren wie Temperatursensoren oder Lichtsensoren auszulesen.
 Es ist wichtig, die Unterschiede zwischen digitalen und analogen Ports zu beachten, um sicherzustellen, dass die richtigen Ports für die jeweiligen Anwendungen verwendet werden.
+</p>
+
+## 5. Installation
+<p>
+$ git remote add origin "gh repo clone Miacaroline/MdWv_Gruppe1 " <br>
+$ git push -u origin master <br>
+$ git status <br>
+$ git add --all <br>
+$ git commit -m "Message" <br>
+$ git push <br>
 </p>
 
 ## 6. Quellen
