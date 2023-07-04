@@ -1,27 +1,25 @@
-## Table of Contents
+## Inhaltsverzeichnis
 
-1. General Info
-2. Technologies <br>
- 2.1 Warum wurden diese Technologien verwendet?
+1. Allgemeine Inforamtionen
+2. Technologien
 3. Arbeitsschritte
 4. Problembehandlung
 5. Installation
 6. Quellen
 
 
-## 1. General Info
+## 1. Allgemeine Informationen
 
 <p>
 Der vorliegende Code wurde als Teil der Projektarbeit für das Fach "Methoden der Wissensverarbeitung" im Masterstudiengang Wirtschaftsinformatik an der HTW Berlin entwickelt. Das Hauptziel dieses Codes ist es, eine Verbindung zwischen Open-Source-Hardware und dem Internet der Dinge (IoT) herzustellen. Konkret handelt es sich in diesem Projekt um die Implementierung eines Bewegungsmelders, der mit einer Shelly-Steckdose und einem Sensor interagiert, um ein bestimmtes Verhalten zu erreichen.
 </p>
 
-## 2. Technologies
+## 2. Technologien
  - Octopus
  - Adjustable PIR Motion Sensor v1.0
  - Shelly Plug S
  - C++
 
-### 2.1 Warum wurden diese Technologien verwendet?
 <p>
 <b>OCTOPUS:</b> <br>
 Octopus ist eine Deployment-Software welche 2012 gegründet wurde. Den Schwerpunkt legt die Firma auf erstklassigem Engineering und Kundenservice.
@@ -68,59 +66,59 @@ Verbindungskabel Octopus zur Shelly: Grove Kabel <br>
 ## 3. Arbeitsschritte
 
 <p> 
-<b></b>1. Verbindung zum Octopus </b><br>
+<b></b>3.1. Verbindung zum Octopus </b><br>
 Um eine Verbindung zum Octopus herzustellen, müssen Sie zunächst die Arduino IDE herunterladen. Dies kann unter folgendem Link erfolgen: https://www.arduino.cc/en/software. Sobald die Arduino IDE installiert ist, können Sie mit dem nächsten Schritt fortfahren.<br>
 
-<b>2. Octopus mit dem Gerät verbinden</b><br>
+<b>3.2. Octopus mit dem Gerät verbinden</b><br>
 Nachdem Sie die Arduino IDE installiert haben, verbinden Sie den Octopus mit Ihrem Gerät. Stellen Sie sicher, dass der Octopus ordnungsgemäß angeschlossen ist und eine stabile Verbindung besteht.<br>
 
-<b>3. Beispielcode ausprobieren </b><br>
+<b>3.3. Beispielcode ausprobieren </b><br>
 Öffnen Sie die Arduino IDE und klicken Sie auf "Datei" > "Beispiele" > "0.1 Basics". Dort finden Sie einen Beispielcode namens "Blink". Dieser Code kann verwendet werden, um die Verbindung zwischen Ihrem Gerät und dem Octopus zu testen. Laden Sie den Beispielcode hoch und führen Sie ihn aus.<br>
 
-<b>4. Verbindung zum Sensor herstellen </b><br>
+<b>3.4. Verbindung zum Sensor herstellen </b><br>
 Nachdem die Verbindung zum Octopus erfolgreich hergestellt wurde, können Sie den PIR Motion Sensor anschließen. Verwenden Sie die entsprechenden Kabel, um den Sensor mit dem Octopus zu verbinden. Um die Funktionalität des Sensors zu überprüfen, können Sie einen Beispielcode von der DFRobot-Website verwenden. Die Ausgaben in der Konsole können Ihnen helfen, die Verbindung und Funktionalität des Sensors zu überprüfen. Beachten Sie, dass es möglicherweise zu Problemen kommen kann, die im nächsten Unterpunkt erklärt werden. Wir haben den Sensor übe den Analogen Port verbunden. Wie auf dem Bild zu erkenn ist, ist dies der Rechte. 
 ![image](https://github.com/Miacaroline/MdWv_Gruppe1/assets/66673347/6865b036-e233-430d-a028-ba9b7a95410a)
 ![image](https://github.com/Miacaroline/MdWv_Gruppe1/assets/66673347/677aaad5-db29-41d2-8f79-184c8ab8a408)
 
 <br>
-<b>5. Problembehandlung </b><br>
+<b>3.5. Problembehandlung </b><br>
 Während des Verbindungs- und Testvorgangs können Probleme auftreten. Wenn Sie auf Probleme stoßen, lesen Sie die detaillierten Erklärungen in der Problembehandlung, um mögliche Lösungen zu finden. <br>
 
-<b>6. Verbindung mit der Shelly herstellen </b><br>
+<b>3.6. Verbindung mit der Shelly herstellen </b><br>
 Um eine Verbindung mit der Shelly herzustellen, stecken Sie das Gerät in eine Steckdose. Stellen Sie sicher, dass die Shelly mit dem WLAN verbunden ist. Kopieren Sie die IP-Adresse des Shelly-Geräts, normalerweise "192.168.33.2". Öffnen Sie einen Webbrowser und ersetzen Sie die letzte Zahl der IP-Adresse durch eine 1, z. B. "192.168.33.1". Suchen Sie nach dieser Adresse, um die Shelly-Einstellungen zu öffnen. Dort können Sie die Verbindung mit Wlan herstellen. <br>
 
 ![image](https://github.com/Miacaroline/MdWv_Gruppe1/assets/66125838/f131cfeb-719d-4c8b-92a9-c842b2f67624)
 ![image](https://github.com/Miacaroline/MdWv_Gruppe1/assets/66125838/1cb68264-1a0e-4494-b3e8-4353dabababc)
 
-<b>7. Verbindung zwischen der Shelly und dem Sensor </b><br>
+<b>3.7. Verbindung zwischen der Shelly und dem Sensor </b><br>
 Die Verbindung zwischen der Shelly und dem Sensor erfolgt über WLAN. Verwenden Sie die ESP8266 HTTPClient Library for HTTPS, um die Verbindung herzustellen. Diese Library bietet die erforderlichen Funktionen, um Daten zwischen der Shelly und dem Sensor auszutauschen. </p>
 
-<b>8. Ausführung des Codes </b><br>
+<b>3.8. Ausführung des Codes </b><br>
 Drücken Sie auf das oben links angeordnete Symbol "Häckchen" zur Überprüfung des Codes. Im Anschluss klicken Sie auf das daneben angeordnete Symbol "Pfeil", um den Code hochzuladen und schließlich auszuführen.
 
 
 ## 4. Problembehandlung
 <p>
-<b></b>1. Fehlercode nicht lesbar: </b><br>
+<b></b>4.1. Fehlercode nicht lesbar: </b><br>
 Falls der Fehlercode nicht lesbar ist, kann der Einsatz des Analog Discovery 2 zur Fehlerdiagnose hilfreich sein.
 Schließe den Analog Discovery 2 an den entsprechenden Port an und verwende die zugehörige Software, um die Signale zu überwachen.
 Analysiere die Signale und vergleiche sie mit den erwarteten Werten, um mögliche Abweichungen zu identifizieren.
 
 ![image](https://github.com/Miacaroline/MdWv_Gruppe1/assets/66125838/e85dde18-904c-4557-8c91-eb041b135c7c)
 
-<b>2. Veränderung des Baud-Werts: </b><br>
+<b>4.2. Veränderung des Baud-Werts: </b><br>
 Sollte die Ausgabe im seriellen Monitor (Console) in Arduino falsch oder mit zusammenhangslosen Zeichen ausgegeben werden, kann die Veränderung des Baud Werts in den Arduino Einstellung eine Lösung darstellen. Dieser benannte Baud-Wert bezieht sich auf die Übertragungsrate oder Symbolrate in dem Kommunikationssystem. Es gibt an, wie viele Signalwechsel pro Sekunde übertragen werden.
 ![image](https://github.com/Miacaroline/MdWv_Gruppe1/assets/66673347/43acea47-26e8-4269-b0b9-94516b7a3d54)
 
 
-<b>3. Sensoranpassung für erhöhte Distanz: </b><br>
+<b>4.3. Sensoranpassung für erhöhte Distanz: </b><br>
 Wenn der Sensor nicht den erwarteten Abstand erfasst hat, kann es erforderlich sein, ihn anzupassen.
 Überprüfe die Dokumentation des Sensors, um herauszufinden, wie die Empfindlichkeit oder Reichweite des Sensors erhöht werden kann.
 Passe den Sensor entsprechend an und aktualisiere den Code, um den neuen Abstandswert zu berücksichtigen. <br>
 ![pir2](https://github.com/Miacaroline/MdWv_Gruppe1/assets/66673347/a6a550aa-6400-4e3c-89c7-6b09606731ca)
 
 
-<b>4. Digitale und analoge Ports: </b><br>
+<b>4.4. Digitale und analoge Ports: </b><br>
 Beim Octopus-Gerät ist es wichtig zu beachten, dass sowohl digitale als auch analoge Ports vorhanden sind. Dies ermöglicht eine vielseitige Verbindung mit verschiedenen Sensoren, Aktoren und externen Geräten.
 Digitale Ports ermöglichen die Kommunikation mit anderen digitalen Geräten und arbeiten mit binären Signalen (HIGH oder LOW). Diese Ports sind ideal, um digitale Sensoren anzuschließen oder Steuersignale an Aktoren zu senden.
 Analoge Ports hingegen ermöglichen die Messung oder Erzeugung kontinuierlicher Werte innerhalb eines bestimmten Spannungsbereichs. Dies ist besonders nützlich, um analoge Sensoren wie Temperatursensoren oder Lichtsensoren auszulesen.
