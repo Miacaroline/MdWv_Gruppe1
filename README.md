@@ -102,7 +102,7 @@ Wenn der Code nicht manuell beendet wird, läuft dieser ohne Pause durch. Wenn S
 
 ## 4. Problembehandlung
 <p>
-<b></b>4.1. Fehlercode nicht lesbar: </b><br>
+<b>4.1. Fehlercode nicht lesbar: </b><br>
 Falls der Fehlercode nicht lesbar ist, kann der Einsatz des Analog Discovery 2 zur Fehlerdiagnose hilfreich sein.
 Schließe den Analog Discovery 2 an den entsprechenden Port an und verwende die zugehörige Software, um die Signale zu überwachen.
 Analysiere die Signale und vergleiche sie mit den erwarteten Werten, um mögliche Abweichungen zu identifizieren.
