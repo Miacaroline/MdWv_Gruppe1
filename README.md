@@ -15,16 +15,14 @@ Der vorliegende Code wurde als Teil der Projektarbeit für das Fach "Methoden de
 </p>
 
 ## 2. Technologien
- - Octopus
+ - IoT Octopus
  - Adjustable PIR Motion Sensor v1.0
  - Shelly Plug S
  - C++
 
 <p>
-<b>OCTOPUS:</b> <br>
-Octopus ist eine Deployment-Software welche 2012 gegründet wurde. Den Schwerpunkt legt die Firma auf erstklassigem Engineering und Kundenservice.
-TeamCity, Azure DevOps und Atlassian Bamboo wären alternativen egwesen, welche (lt. Octopus selber) weitesgehend nicht so Leistungsstark sind.
-Darüber hinaus setzt Octopus nicht auf CI/CD "End-to-End" (Hinzufügen von Quellcodeverwaltung, Fehlerverfolgung, Build usw.), sondern mit Bereitstellungen und Vorgängen/Runbook-Automatisierungen. Dieser Bereich, wurde von den wenigsten End-to-End-CI/CD-Tools erkundet.
+<b>IoT OCTOPUS:</b> <br>
+Der IoT Octopus ist eine Open-Source-Hardware, welcher speziell für das Internet der Dinge (IoT) entwickelt wurde. Er bietet digitale und analoge Ports zur einfachen Verbindung von Sensoren und Aktoren. Die Entwicklungsplattform ist ein guter Einstieg für Anfänger und ermöglicht erfahrenen Entwicklern schnelle Projektumsetzung. Mit dem Octopus können innovative IoT-Projekte in verschiedenen Bereichen wie Smart Home, Umweltüberwachung und Industrieautomatisierung realisiert werden.
 
 ![octopus1](https://github.com/Miacaroline/MdWv_Gruppe1/assets/66673347/fdc4dbeb-bf53-4a8f-b2df-2b9420e384d6)  ![octopus2](https://github.com/Miacaroline/MdWv_Gruppe1/assets/66673347/4c282ccb-35b1-4e0d-a7cb-7c4dc41b918f)
  
@@ -147,3 +145,7 @@ Wlan Verbindung:
 https://forum.arduino.cc/t/esp8266-httpclient-library-for-https/495245
 http://stefanfrings.de/esp8266/
 https://wiki.dfrobot.com/PIR_Motion_Sensor_V1.0_SKU_SEN0171
+IoT Octopus:
+https://www.thethingsnetwork.org/community/rottal-inn/post/iot-octopus-das-perfekte-gerat-fur-einsteiger
+https://www.heise.de/select/make/2016/14/1481540099093747
+https://www.lehrerfortbildung-bw.de/st_digital/medienwerkstatt/dossiers/co2ampel/3_materialien/1_board/
