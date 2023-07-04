@@ -51,12 +51,12 @@ Weitere Informationen zur Shelly: https://de.manuals.plus/shelly/plus-plug-s-wi-
 C++ ist eine häufig verwendete Programmiersprache für die Entwicklung von Firmware und ermöglicht es, den Code des Geräts anzupassen. C++ hat eine gute Leistung und Effizienz, da es eine niedrige Abstraktionsebene und direkten Zugriff auf die Hardware ermöglicht. Außerdem ist C++ Plattformunabhängig.<br>
 
 <p><br><p/> 
-Folgender Verbindungskabel wurden verwendet: MicroUSB zu USB 
+Verbindungskabel vom Rechner zum Octopus: MicroUSB zu USB 
 
  ![image](https://github.com/Miacaroline/MdWv_Gruppe1/assets/66125838/25fe93d6-67d4-4111-ab69-61652a39ca13)
 
 
-Verbindungskabel Octopus zur Shelly: Grove Kabel <br>
+Verbindungskabel vom Octopus zur Shelly: Grove Kabel <br>
 <table><tr>
 <td> <img src="https://github.com/Miacaroline/MdWv_Gruppe1/assets/66673347/89dd57f5-6e38-496a-b843-1752231ce577" alt="Sensor" style="width: 250px;"/> </td>
 </tr></table>
