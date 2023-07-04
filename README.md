@@ -21,14 +21,14 @@ Der vorliegende Code wurde als Teil der Projektarbeit für das Fach "Methoden de
  - C++
 
 <p>
-<b>IoT OCTOPUS:</b> <br>
+<b>2.1. IoT OCTOPUS:</b> <br>
 Der IoT Octopus ist eine Open-Source-Hardware, welcher speziell für das Internet der Dinge (IoT) entwickelt wurde. Er bietet digitale und analoge Ports zur einfachen Verbindung von Sensoren und Aktoren. Die Entwicklungsplattform ist ein guter Einstieg für Anfänger und ermöglicht erfahrenen Entwicklern schnelle Projektumsetzung. Mit dem Octopus können innovative IoT-Projekte in verschiedenen Bereichen wie Smart Home, Umweltüberwachung und Industrieautomatisierung realisiert werden.
 
 ![octopus1](https://github.com/Miacaroline/MdWv_Gruppe1/assets/66673347/fdc4dbeb-bf53-4a8f-b2df-2b9420e384d6)  ![octopus2](https://github.com/Miacaroline/MdWv_Gruppe1/assets/66673347/4c282ccb-35b1-4e0d-a7cb-7c4dc41b918f)
  
 Weitere Informationen zum Octopus und dessen Aufbau: https://www.lehrerfortbildung-bw.de/st_digital/medienwerkstatt/dossiers/co2ampel/3_materialien/1_board/   
  
-<b>ADJUSTABLE PIR MOTIOB SENSOR v1.0: </b> <br>
+<b>2.2. ADJUSTABLE PIR MOTIOB SENSOR v1.0: </b> <br>
 Ein einstellbarer PIR-Bewegungssensor ist ein Gerät, das Bewegungen aufgrund von Veränderungen in der Infrarotstrahlung in seinem Erfassungsbereich erkennt. 
 Der Sensor hat neben dem in Projekt verwendeten Einstellungen, der empfindlichen Beweglichtkeit, auch weitere Möglichkeiten wie z.B. die Einstellung einer Zeitverzögerung.
 
@@ -39,7 +39,7 @@ Der Sensor hat neben dem in Projekt verwendeten Einstellungen, der empfindlichen
 
 Weitere Informationen zur PIR und dessen Aufbau: https://learn.adafruit.com/pir-passive-infrared-proximity-motion-sensor/overview  
 
-<b>SHELLY: </b> <br>
+<b>2.3. SHELLY: </b> <br>
 Bei der verwendeten Shelly Plus Plug S handelt es sich um eine intelligente Steckdose, welche die Fernsteuerung von verschiedensten Elektrogeräten ermöglicht. Dabei kann die Shelly sowohl über ein Wi-Fi Netzwerk als auch über einen Cloud-Hausautomatisierungsdienste betrieben werden.
 Eine mögliche Alternative zur Shelly wäre der TP-Link Kasa Smart Plug, wobei die Shelly ein kompatibleres Design hat.
 
@@ -47,9 +47,9 @@ Eine mögliche Alternative zur Shelly wäre der TP-Link Kasa Smart Plug, wobei d
 
 Weitere Informationen zur Shelly: https://de.manuals.plus/shelly/plus-plug-s-wi-fi-smart-plug-manual#ixzz85qrAgqRJ
 
-<b>C++: </b><br>
+<b>2.4. C++: </b><br>
 C++ ist eine häufig verwendete Programmiersprache für die Entwicklung von Firmware und ermöglicht es, den Code des Geräts anzupassen. C++ hat eine gute Leistung und Effizienz, da es eine niedrige Abstraktionsebene und direkten Zugriff auf die Hardware ermöglicht. Außerdem ist C++ Plattformunabhängig.
-
+<br>
 Folgender Verbindungskabel wurden verwendet: 
 MicroUSB zu USB 
 ![image](https://github.com/Miacaroline/MdWv_Gruppe1/assets/66673347/c1648885-6650-46d0-9d66-511143435674)
