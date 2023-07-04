@@ -99,7 +99,7 @@ Drücken Sie auf das oben links angeordnete "Häckchen"-Symbol zur Überprüfung
 <b>3.9. Hochladen des Codes </b><br>
 Im Anschluss klicken Sie auf das oben angeordnete "Pfeil"-Symbol, um den Code hochzuladen und schließlich auszuführen. Dabei wird der Code in die Prozessor Platfform eingefügt und das Programm läuft durch. Mit dieser Ausführung wird bei Erfassung einer Bewegung vom "Adjustable PIR Motion Sensor v1.0" ein Signal an die "Shelly Plug S"gesendet und leuchtet "grün". 
 
-<b>3.10. Beendung des Programms
+<b>3.10. Beendung des Programms</b><br>
 Wenn der Code nicht manuell beendet wird, läuft dieser ohne Pause durch. Wenn Sie den Code beenden wollen, dann müssen Sie auf ... klicken.
 
 ## 4. Problembehandlung
