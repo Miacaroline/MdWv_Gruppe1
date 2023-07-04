@@ -139,13 +139,13 @@ $ git push <br>
 </p>
 
 ## 6. Quellen
-Erklärung PIR Sensor:
-https://wiki.dfrobot.com/PIR_Motion_Sensor_V1.0_SKU_SEN0171 
-Wlan Verbindung: 
-https://forum.arduino.cc/t/esp8266-httpclient-library-for-https/495245
-http://stefanfrings.de/esp8266/
-https://wiki.dfrobot.com/PIR_Motion_Sensor_V1.0_SKU_SEN0171
-IoT Octopus:
-https://www.thethingsnetwork.org/community/rottal-inn/post/iot-octopus-das-perfekte-gerat-fur-einsteiger
-https://www.heise.de/select/make/2016/14/1481540099093747
+Erklärung PIR Sensor: <br>
+https://wiki.dfrobot.com/PIR_Motion_Sensor_V1.0_SKU_SEN0171 <br>
+Wlan Verbindung: <br>
+https://forum.arduino.cc/t/esp8266-httpclient-library-for-https/495245 <br>
+http://stefanfrings.de/esp8266/ <br>
+https://wiki.dfrobot.com/PIR_Motion_Sensor_V1.0_SKU_SEN0171<br>
+IoT Octopus: <br>
+https://www.thethingsnetwork.org/community/rottal-inn/post/iot-octopus-das-perfekte-gerat-fur-einsteiger <br>
+https://www.heise.de/select/make/2016/14/1481540099093747 <br>
 https://www.lehrerfortbildung-bw.de/st_digital/medienwerkstatt/dossiers/co2ampel/3_materialien/1_board/
