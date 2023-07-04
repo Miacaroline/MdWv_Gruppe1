@@ -94,7 +94,7 @@ Um eine Verbindung mit der Shelly herzustellen, stecken Sie das Gerät in eine S
 Die Verbindung zwischen der Shelly und dem Sensor erfolgt über WLAN. Verwenden Sie die ESP8266 HTTPClient Library for HTTPS, um die Verbindung herzustellen. Diese Library bietet die erforderlichen Funktionen, um Daten zwischen der Shelly und dem Sensor auszutauschen. </p>
 
 <b>3.8. Compelierung des Codes </b><br>
-Drücken Sie auf das oben links angeordnete "Häckchen"-Symbol zur Überprüfung des Codes. Mit dieser Ausführung wird der Code kompiliert, das heisst in Maschinensprache übersetzt.
+Drücken Sie auf das oben links angeordnete "Häckchen"-Symbol zur Überprüfung des Codes. Mit dieser Ausführung wird der Code kompiliert, somit in Maschinensprache übersetzt.
 
 <b>3.9. Hochladen des Codes </b><br>
 Im Anschluss klicken Sie auf das oben angeordnete "Pfeil"-Symbol, um den Code hochzuladen und schließlich auszuführen. Dabei wird der Code in die Prozessor Platfform eingefügt und das Programm läuft durch. Mit dieser Ausführung wird bei Erfassung einer Bewegung vom "Adjustable PIR Motion Sensor v1.0" ein Signal an die "Shelly Plug S"gesendet und leuchtet "grün". 
