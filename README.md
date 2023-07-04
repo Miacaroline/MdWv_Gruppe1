@@ -52,7 +52,9 @@ C++ ist eine häufig verwendete Programmiersprache für die Entwicklung von Firm
 
 <p><br><p/> 
 Folgender Verbindungskabel wurden verwendet: MicroUSB zu USB 
-![image](https://github.com/Miacaroline/MdWv_Gruppe1/assets/66673347/c1648885-6650-46d0-9d66-511143435674)
+
+ ![image](https://github.com/Miacaroline/MdWv_Gruppe1/assets/66125838/25fe93d6-67d4-4111-ab69-61652a39ca13)
+
 
 Verbindungskabel Octopus zur Shelly: Grove Kabel <br>
 <table><tr>
